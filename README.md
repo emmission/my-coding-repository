@@ -1,4 +1,4 @@
-#Mahlodi Tefu's Portfolio
+Mahlodi Tefu's Portfolio
 
 This repository contains the HTML code for Mahlodi Tefu's portfolio website.
 
