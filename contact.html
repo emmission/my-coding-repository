@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahlodi Tefu - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="logo.png" alt="Logo"></a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>City: Polokwane, Limpopo</p>
+
+            <!-- Contact Form -->
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name and Surname:</label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com/mahlodi.emmission"><i class="fab fa-facebook"></i></a>
+            <a href="https://x.com/mahlodit3"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="phone">
+            <p>Phone: +27768784148</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
