@@ -26,16 +26,16 @@
             <h2>Contact Us</h2>
             <p>City: Polokwane, Limpopo</p>
 
-            
-            <form action="#" method="POST">
-                <label for="name">Name and Surname:</label><br>
-                <input type="text" id="name" name="name"><br>
+            <!-- Formspree form -->
+            <form id="contactForm" action="https://formspree.io/mahloditefu@gmail.com" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
 
                 <label for="email">Email Address:</label><br>
-                <input type="email" id="email" name="email"><br>
+                <input type="email" id="email" name="email" required><br>
 
                 <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
 
                 <input type="submit" value="Submit">
             </form>
@@ -51,6 +51,5 @@
             <p>Phone: +27790692833</p>
         </div>
     </footer>
-    
 </body>
 </html>
